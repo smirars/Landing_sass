@@ -1,12 +1,5 @@
-p {
-  color: red;
-}
-
 .train {
-  font-size: 24px;
-}
-.train .big {
-  font-size: 40px;
+  background: linear-gradient(90deg, #504DC2 20.44%, #5F12D0 80.91%);
 }
 
 /*# sourceMappingURL=styles.css.map */

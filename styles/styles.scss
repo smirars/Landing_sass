@@ -1,10 +1,9 @@
-p {
-    color: red;
-}
+$white_color: #ffffff;
+$main_color:  #F6F6F8;
+$accent_color: linear-gradient(90deg, #504DC2 20.44%, #5F12D0 80.91%);
+$button_color: #4985FF;
 
-.train {
-    font-size: 24px;
-    .big {
-       font-size: 40px; 
-    }
+body {
+    margin: 0;
+    padding: 0;
 }
