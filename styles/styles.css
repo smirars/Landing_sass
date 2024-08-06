@@ -1,5 +1,15 @@
-.train {
-  background: linear-gradient(90deg, #504DC2 20.44%, #5F12D0 80.91%);
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  height: 750px;
+  overflow: hidden;
+}
+.header img {
+  width: 100%;
+  height: auto;
 }
 
 /*# sourceMappingURL=styles.css.map */
