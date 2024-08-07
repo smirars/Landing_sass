@@ -105,23 +105,38 @@ body {
         font-size: 36px;
         line-height: 53px;
         text-align: center;
-        color: #323232;                
+        color: #323232;
+        width: 700px;
+        margin-top: 80px;
+        margin-inline: auto;                
     }
     &__content {
         font-size: 16px;
         line-height: 25px;
         text-align: center;
         color: #999999;
+        width: 700px;
+        margin-top: 40px;
+        margin-inline: auto;
     }
     &__list {
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-around;
+        margin-top: 100px;
         &-item {
-            width: 353px;
+            position: relative;
+            width: 230px;
+            .item_icon {
+                position: absolute;
+                top: -15px;
+                left: -75px;
+            }
             .item_title {
                 font-size: 18px;
                 line-height: 22px;
                 color: #000000;
+                margin-bottom: 15px;
             }
             .item_content {
                 font-size: 14px;
@@ -129,6 +144,10 @@ body {
                 color: #999999;
             }
         }
+    }
+    &__button {
+        margin-top: 40px;
+        margin-inline: auto;
     }
 }
 
