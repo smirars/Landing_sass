@@ -91,4 +91,39 @@ body {
   color: #ffffff;
 }
 
+.description {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+}
+.description__title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 53px;
+  text-align: center;
+  color: #323232;
+}
+.description__content {
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+  color: #999999;
+}
+.description__list {
+  display: flex;
+  justify-content: space-around;
+}
+.description__list-item {
+  width: 353px;
+}
+.description__list-item .item_title {
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+}
+.description__list-item .item_content {
+  font-size: 14px;
+  line-height: 22px;
+  color: #999999;
+}
+
 /*# sourceMappingURL=styles.css.map */

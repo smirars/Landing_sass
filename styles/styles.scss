@@ -97,6 +97,44 @@ body {
     color: $white_color; 
 }
 
+.description {
+    font-family: $main_font;
+    font-style: normal;
+    &__title {
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 53px;
+        text-align: center;
+        color: #323232;                
+    }
+    &__content {
+        font-size: 16px;
+        line-height: 25px;
+        text-align: center;
+        color: #999999;
+    }
+    &__list {
+        display: flex;
+        justify-content: space-around;
+        &-item {
+            width: 353px;
+            .item_title {
+                font-size: 18px;
+                line-height: 22px;
+                color: #000000;
+            }
+            .item_content {
+                font-size: 14px;
+                line-height: 22px;
+                color: #999999;
+            }
+        }
+    }
+}
+
+
+
+
 
 
 
