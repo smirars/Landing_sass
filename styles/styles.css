@@ -143,17 +143,21 @@ body {
 .description__button {
   margin-top: 40px;
   margin-inline: auto;
+  margin-bottom: 40px;
 }
 
+.standarts {
+  background-color: #F6F6F8;
+}
 .standarts__container {
-  margin-top: 80px;
+  padding-top: 80px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   margin-inline: auto;
 }
 .standarts__content {
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   width: 400px;
 }
@@ -172,6 +176,48 @@ body {
 .standarts__image img {
   width: 500px;
   height: auto;
+}
+.standarts__list {
+  margin-top: 50px;
+  width: 90%;
+  margin-inline: auto;
+  margin-bottom: 40px;
+}
+.standarts__list ul {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+}
+.standarts__list ul .item {
+  position: relative;
+}
+.standarts__list ul .item__icon {
+  position: relative;
+  top: 10px;
+}
+.standarts__list ul .item__number {
+  font-size: 36px;
+  line-height: 53px;
+  color: #000000;
+  position: absolute;
+  top: 0px;
+  left: 35px;
+}
+.standarts__list ul .item__content {
+  font-size: 16px;
+  line-height: 25px;
+  color: #999999;
+  position: relative;
+  top: 10px;
+}
+.standarts::after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -148,19 +148,21 @@ body {
     &__button {
         margin-top: 40px;
         margin-inline: auto;
+        margin-bottom: 40px;
     }
 }
 
 .standarts {
+    background-color: $main_color;
     &__container {
-        margin-top: 80px;
+        padding-top: 80px;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
         margin-inline: auto;
     }
     &__content {
-        font-family: 'Montserrat';
+        font-family: $main_font;
         font-style: normal;        
         width: 400px;
         &-title {
@@ -181,6 +183,48 @@ body {
             width: 500px;
             height: auto;  
         }
+    }
+    &__list {
+        margin-top: 50px;
+        width: 90%;
+        margin-inline: auto;
+        margin-bottom: 40px;
+        & ul {
+            display: flex;
+            justify-content: space-between;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            font-family: $main_font;
+            font-style: normal;
+            & .item {
+                position: relative;
+                &__icon {
+                    position: relative;
+                    top: 10px;
+                }
+                &__number {
+                    font-size: 36px;
+                    line-height: 53px;
+                    color: #000000;
+                    position: absolute;
+                    top: 0px;
+                    left: 35px;
+                }
+                &__content {
+                    font-size: 16px;
+                    line-height: 25px;
+                    color: #999999;
+                    position: relative;
+                    top: 10px;
+                }
+            }
+        }
+    }
+    &::after {
+        content: "";
+        display: table;
+        clear: both;
     }
 }
 
