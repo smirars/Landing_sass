@@ -145,4 +145,33 @@ body {
   margin-inline: auto;
 }
 
+.standarts__container {
+  margin-top: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-inline: auto;
+}
+.standarts__content {
+  font-family: "Montserrat";
+  font-style: normal;
+  width: 400px;
+}
+.standarts__content-title {
+  font-size: 36px;
+  line-height: 53px;
+  color: #323232;
+  margin-bottom: 20px;
+}
+.standarts__content-text {
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 25px;
+  color: #999999;
+}
+.standarts__image img {
+  width: 500px;
+  height: auto;
+}
+
 /*# sourceMappingURL=styles.css.map */
