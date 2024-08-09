@@ -221,4 +221,78 @@ body {
   clear: both;
 }
 
+.works {
+  background: linear-gradient(#504DC2 0%, #5F12D0 60%, #ffffff 60%, #ffffff 100%);
+  font-family: "Montserrat";
+  font-style: normal;
+  padding-top: 70px;
+}
+.works .container {
+  width: 70%;
+  margin-inline: auto;
+}
+.works .container__top {
+  position: relative;
+}
+.works .container__top::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.works__title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 36px;
+  line-height: 53px;
+  color: #FFFFFF;
+  width: 540px;
+}
+.works__button {
+  position: absolute;
+  top: 25px;
+  right: 0;
+}
+.works__list {
+  padding-top: 200px;
+  margin-bottom: 140px;
+}
+.works__list .list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.works__list .list__item {
+  width: 350px;
+}
+.works__list .list__item-img img {
+  width: 300px;
+  border-radius: 15px;
+  height: auto;
+  margin-bottom: 10px;
+}
+.works__list .list__item-title {
+  font-size: 18px;
+  line-height: 22px;
+  margin-bottom: 10px;
+}
+.works__list .list__item-title .number {
+  color: #4985FF;
+}
+.works__list .list__item-content {
+  font-size: 16px;
+  line-height: 25px;
+  color: #999999;
+  margin-bottom: 10px;
+}
+.works__list .list__item-link {
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration-line: underline;
+  color: #4985FF;
+}
+
 /*# sourceMappingURL=styles.css.map */

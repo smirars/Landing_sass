@@ -1,6 +1,6 @@
 $white_color: #ffffff;
 $main_color:  #F6F6F8;
-$accent_color: linear-gradient(90deg, #504DC2 20.44%, #5F12D0 80.91%);
+$accent_color: linear-gradient(#504DC2 0%, #5F12D0 60%, #ffffff 60%, #ffffff 100%);
 $button_color: #4985FF;
 $main_font: "Montserrat", sans-serif;
 
@@ -226,6 +226,82 @@ body {
         content: "";
         display: table;
         clear: both;
+    }
+}
+
+.works {
+    background: $accent_color;
+    font-family: 'Montserrat';
+    font-style: normal;
+    padding-top: 70px;
+    & .container {
+        width: 70%;
+        margin-inline: auto;
+        &__top {
+            position: relative;
+            &::after {
+                content: "";
+                clear: both;
+                display: table;
+            }
+        }
+    }
+    &__title {
+        position: absolute;
+        top: 0;
+        left: 0;
+        font-size: 36px;
+        line-height: 53px;
+        color: #FFFFFF;
+        width: 540px;
+    }
+    &__button {
+        position: absolute;
+        top: 25px;
+        right: 0;
+    }
+    &__list {
+        padding-top: 200px;
+        margin-bottom: 140px;
+        & .list {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            &__item {
+                width: 350px;
+                &-img {
+                    & img {
+                        width: 300px;
+                        border-radius: 15px;
+                        height: auto;
+                        margin-bottom: 10px;
+                    }
+                }
+                &-title {
+                    font-size: 18px;
+                    line-height: 22px;
+                    margin-bottom: 10px;                   
+                    & .number {
+                        color: #4985FF;
+                    }
+                }
+                &-content {
+                    font-size: 16px;
+                    line-height: 25px;
+                    color: #999999;
+                    margin-bottom: 10px;
+                }
+                &-link {
+                    font-size: 16px;
+                    line-height: 20px;
+                    text-decoration-line: underline;
+                    color: $button_color;
+                }
+            } 
+        }
     }
 }
 
