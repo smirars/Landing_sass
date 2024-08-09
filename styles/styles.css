@@ -299,6 +299,7 @@ body {
   background-color: #F6F6F8;
   font-family: "Montserrat", sans-serif;
   font-style: normal;
+  padding-top: 50px;
 }
 .projects__title {
   font-size: 36px;
@@ -306,7 +307,6 @@ body {
   text-align: center;
   font-weight: bold;
   color: #000000;
-  margin-top: 80px;
 }
 .projects__content {
   font-size: 16px;
@@ -335,6 +335,7 @@ body {
 .projects__button {
   margin-inline: auto;
   margin-top: 50px;
+  margin-bottom: 150px;
 }
 
 /*# sourceMappingURL=styles.css.map */
