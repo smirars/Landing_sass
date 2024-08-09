@@ -223,7 +223,7 @@ body {
 
 .works {
   background: linear-gradient(#504DC2 0%, #5F12D0 60%, #ffffff 60%, #ffffff 100%);
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   padding-top: 70px;
 }
@@ -293,6 +293,48 @@ body {
   line-height: 20px;
   text-decoration-line: underline;
   color: #4985FF;
+}
+
+.projects {
+  background-color: #F6F6F8;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+}
+.projects__title {
+  font-size: 36px;
+  line-height: 53px;
+  text-align: center;
+  font-weight: bold;
+  color: #000000;
+  margin-top: 80px;
+}
+.projects__content {
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+  color: #999999;
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+.projects__list {
+  width: 70%;
+  margin-inline: auto;
+}
+.projects__list .list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.projects__list .list__item img {
+  width: 255px;
+  height: 255px;
+}
+.projects__button {
+  margin-inline: auto;
+  margin-top: 50px;
 }
 
 /*# sourceMappingURL=styles.css.map */
