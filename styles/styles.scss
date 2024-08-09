@@ -186,11 +186,12 @@ body {
     }
     &__list {
         margin-top: 50px;
-        width: 90%;
+        width: 70%;
         margin-inline: auto;
         margin-bottom: 40px;
         & ul {
             display: flex;
+            flex-wrap: wrap;
             justify-content: space-between;
             margin: 0;
             padding: 0;
