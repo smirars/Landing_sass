@@ -303,11 +303,11 @@ body {
     background: $accent_color;
     font-family: $main_font;
     font-style: normal;
-    @media screen and (max-width: 1070px) {
+    @media screen and (max-width: 1350px) {
         background: linear-gradient(#504DC2, #5F12D0);
     }
     & .container {
-        width: 70%;
+        width: 80%;
         margin-inline: auto;
         &__top {
             position: relative;

@@ -330,13 +330,13 @@ body {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
 }
-@media screen and (max-width: 1070px) {
+@media screen and (max-width: 1350px) {
   .works {
     background: linear-gradient(#504DC2, #5F12D0);
   }
 }
 .works .container {
-  width: 70%;
+  width: 80%;
   margin-inline: auto;
 }
 .works .container__top {
