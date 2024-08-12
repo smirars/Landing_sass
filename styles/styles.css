@@ -53,6 +53,11 @@ body {
   height: 45px;
   left: 50%;
 }
+@media screen and (max-width: 1070px) {
+  .header__list {
+    left: 10%;
+  }
+}
 .header__list--item {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
@@ -75,6 +80,11 @@ body {
   position: absolute;
   top: 85px;
   left: 49%;
+}
+@media screen and (max-width: 1070px) {
+  .header .active {
+    left: 9%;
+  }
 }
 
 .button {
@@ -119,6 +129,11 @@ body {
   flex-wrap: wrap;
   justify-content: space-around;
   margin-top: 100px;
+}
+@media screen and (max-width: 880px) {
+  .description__list {
+    flex-direction: column;
+  }
 }
 .description__list-item {
   position: relative;
@@ -222,10 +237,15 @@ body {
 }
 
 .works {
+  padding-top: 70px;
   background: linear-gradient(#504DC2 0%, #5F12D0 60%, #ffffff 60%, #ffffff 100%);
   font-family: "Montserrat", sans-serif;
   font-style: normal;
-  padding-top: 70px;
+}
+@media screen and (max-width: 1070px) {
+  .works {
+    background: linear-gradient(#504DC2, #5F12D0);
+  }
 }
 .works .container {
   width: 70%;
@@ -253,6 +273,12 @@ body {
   top: 25px;
   right: 0;
 }
+@media screen and (max-width: 880px) {
+  .works__button {
+    left: 0;
+    top: 120px;
+  }
+}
 .works__list {
   padding-top: 200px;
   margin-bottom: 140px;
@@ -264,6 +290,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  gap: 10px;
 }
 .works__list .list__item {
   width: 350px;
@@ -282,17 +309,34 @@ body {
 .works__list .list__item-title .number {
   color: #4985FF;
 }
+@media screen and (max-width: 1070px) {
+  .works__list .list__item-title .number {
+    color: #ffffff;
+  }
+}
 .works__list .list__item-content {
   font-size: 16px;
   line-height: 25px;
   color: #999999;
   margin-bottom: 10px;
 }
+@media screen and (max-width: 1070px) {
+  .works__list .list__item-content {
+    color: #ffffff;
+  }
+}
 .works__list .list__item-link {
   font-size: 16px;
   line-height: 20px;
   text-decoration-line: underline;
+}
+.works__list .list__item-link a {
   color: #4985FF;
+}
+@media screen and (max-width: 1070px) {
+  .works__list .list__item-link a {
+    color: #ffffff;
+  }
 }
 
 .projects {
@@ -327,6 +371,7 @@ body {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
+  gap: 10px;
   justify-content: space-between;
 }
 .projects__list .list__item img {
