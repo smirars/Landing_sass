@@ -464,6 +464,57 @@ body {
     }
 }
 
+footer {
+    font-family: $main_font;
+    font-style: normal;
+    background-color: $main_color;
+    margin-top: 90px;
+    padding-top: 40px;
+    & .container {
+        width: 70%;
+        margin-inline: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        &::after {
+            content: "";
+            background-color: #999999;
+            height: 2px;
+            width: 100%;
+        }
+        & .list {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            &__title {
+                font-size: 18px;
+                line-height: 22px;
+                color: #000000;
+                font-weight: bold;
+            }
+            &__item {
+                font-size: 14px;
+                line-height: 22px;
+                color: #999999;
+                margin-top: 10px;
+                &:last-child {
+                    margin-bottom: 30px;
+                }
+            }
+        }
+    }
+    & .copyright {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-size: 13px;
+        line-height: 21px;
+        text-align: center;
+        color: #999999;        
+    }
+}
+
+
+
 
 
 

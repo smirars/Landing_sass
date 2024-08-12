@@ -448,4 +448,53 @@ body {
   border-radius: 0px 30px 30px 0px;
 }
 
+footer {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  background-color: #F6F6F8;
+  margin-top: 90px;
+  padding-top: 40px;
+}
+footer .container {
+  width: 70%;
+  margin-inline: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+footer .container::after {
+  content: "";
+  background-color: #999999;
+  height: 2px;
+  width: 100%;
+}
+footer .container .list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+footer .container .list__title {
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+  font-weight: bold;
+}
+footer .container .list__item {
+  font-size: 14px;
+  line-height: 22px;
+  color: #999999;
+  margin-top: 10px;
+}
+footer .container .list__item:last-child {
+  margin-bottom: 30px;
+}
+footer .copyright {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 13px;
+  line-height: 21px;
+  text-align: center;
+  color: #999999;
+}
+
 /*# sourceMappingURL=styles.css.map */
