@@ -46,6 +46,18 @@ body {
             width: 500px;
             left: calc(50% - 500px / 2);
         }
+        @media screen and (max-width: 520px) {
+            font-size: 32px;
+            width: 400px;
+            left: calc(50% - 400px / 2);
+            line-height: 48px;
+        }
+        @media screen and (max-width: 440px) {
+            font-size: 24px;
+            width: 300px;
+            left: calc(50% - 300px / 2);
+            line-height: 48px;
+        }
     }   
     &__button {
         position: absolute;
@@ -65,12 +77,23 @@ body {
         @media screen and (max-width: 1070px) {
             left: 10%;
         }
+        @media screen and (max-width: 560px) {
+            left: 5%;
+            gap: 20px;
+        }
+        @media screen and (max-width: 420px) {
+            left: 3%;
+            gap: 15px;
+        }
         &--item {
             font-family: $main_font;
             font-style: normal;
             font-size: 16px;
             line-height: 20px;
-            color: $white_color;            
+            color: $white_color;
+            @media screen and (max-width: 420px) {
+                font-size: 14px;
+            }            
         }
     }
     .line {
@@ -90,6 +113,14 @@ body {
         left: 49%;
         @media screen and (max-width: 1070px) {
             left: 9%;
+        }
+        @media screen and (max-width: 560px) {
+            left: 4%;
+            width: 70px;
+        }
+        @media screen and (max-width: 420px) {
+            left: 2%;
+            width: 60px;       
         }
     }
 }
@@ -123,6 +154,11 @@ body {
         @media screen and (max-width: 720px) {
             width: 500px;
             font-size: 28px;
+        }
+        @media screen and (max-width: 520px) {
+            width: 250px;
+            font-size: 18px;  
+            line-height: 24px;     
         }                
     }
     &__content {
@@ -136,6 +172,9 @@ body {
         @media screen and (max-width: 720px) {
             font-size: 12px;
             width: 500px;
+        }
+        @media screen and (max-width: 520px) {
+            width: 250px;       
         }
     }
     &__list {
@@ -189,6 +228,9 @@ body {
         font-family: $main_font;
         font-style: normal;        
         width: 400px;
+        @media screen and (max-width: 400px) {
+            width: 300px;       
+        }
         &-title {
             font-size: 36px;
             line-height: 53px;
@@ -205,7 +247,10 @@ body {
     &__image {
         & img {
             width: 500px;
-            height: auto;  
+            height: auto; 
+            @media screen and (max-width: 520px) {
+                width: 300px;       
+            } 
         }
     }
     &__list {
@@ -281,6 +326,16 @@ body {
         line-height: 53px;
         color: #FFFFFF;
         width: 540px;
+        @media screen and (max-width: 620px) {
+            width: 360px;
+            font-size: 24px;
+            line-height: 48px;
+        }
+        @media screen and (max-width: 450px) {
+            width: 280px;
+            font-size: 20px;
+            line-height: 36px;
+        }        
     }
     &__button {
         position: absolute;
@@ -368,6 +423,9 @@ body {
         color: #999999;
         margin-top: 50px;
         margin-bottom: 70px;
+        @media screen and (max-width: 400px) {
+            width: 350px;       
+        }
     }
     &__list {
         width: 70%;
@@ -401,6 +459,9 @@ body {
 .video {
     font-family: $main_font;
     font-style: normal;
+    @media screen and (max-width: 420px) {
+        display: none;
+    }
     &__container {
         height: 700px;
         position: relative;
@@ -445,15 +506,22 @@ body {
         @media screen and (max-width: 720px) {
             left: calc(50% - 480px / 2);
         }
+        @media screen and (max-width: 520px) {
+            left: calc(50% - 400px / 2);
+        }
+        
         & img {
             width: 720px;
             @media screen and (max-width: 720px) {
                 width: 480px;
             }
+            @media screen and (max-width: 520px) {
+                width: 400px;
+            }
         }
         & .frame__button {
             position: absolute;
-            top: calc(50% - 100px / 2);;
+            top: calc(50% - 100px / 2);
             left: calc(50% - 300px / 2);
             width: 300px;
             height: 100px;
@@ -474,6 +542,9 @@ body {
             text-align: center;
             color: #999999;
             margin-bottom: 20px;
+            @media screen and (max-width: 520px) {
+                font-size: 14px;
+            }
         }
         &-post {
             font-size: 13px;
@@ -487,6 +558,9 @@ body {
             position: relative;
             width: 489px;
             margin-inline: auto;
+            @media screen and (max-width: 520px) {
+                width: 389px;
+            }
             &::after {
                 clear: both;
                 content: "";
@@ -503,6 +577,9 @@ body {
                     border-radius: 30px;
                     position: absolute;
                     left: 0;
+                    @media screen and (max-width: 520px) {
+                        width: 389px;
+                    }
                 }
                 &__button {
                     width: 190px;
@@ -512,6 +589,9 @@ body {
                     background: #4985FF;
                     box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
                     border-radius: 0px 30px 30px 0px;
+                    @media screen and (max-width: 520px) {
+                        width: 150px;
+                    }
                 }
             }
         }
@@ -524,6 +604,9 @@ footer {
     background-color: $main_color;
     margin-top: 90px;
     padding-top: 40px;
+    @media screen and (max-width: 400px) {
+        margin-top: 0;
+    }
     & .container {
         width: 70%;
         margin-inline: auto;

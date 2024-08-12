@@ -44,6 +44,22 @@ body {
     left: calc(50% - 250px);
   }
 }
+@media screen and (max-width: 520px) {
+  .header__motto {
+    font-size: 32px;
+    width: 400px;
+    left: calc(50% - 200px);
+    line-height: 48px;
+  }
+}
+@media screen and (max-width: 440px) {
+  .header__motto {
+    font-size: 24px;
+    width: 300px;
+    left: calc(50% - 150px);
+    line-height: 48px;
+  }
+}
 .header__button {
   position: absolute;
   top: 450px;
@@ -65,12 +81,29 @@ body {
     left: 10%;
   }
 }
+@media screen and (max-width: 560px) {
+  .header__list {
+    left: 5%;
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .header__list {
+    left: 3%;
+    gap: 15px;
+  }
+}
 .header__list--item {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-size: 16px;
   line-height: 20px;
   color: #ffffff;
+}
+@media screen and (max-width: 420px) {
+  .header__list--item {
+    font-size: 14px;
+  }
 }
 .header .line {
   height: 2px;
@@ -91,6 +124,18 @@ body {
 @media screen and (max-width: 1070px) {
   .header .active {
     left: 9%;
+  }
+}
+@media screen and (max-width: 560px) {
+  .header .active {
+    left: 4%;
+    width: 70px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .header .active {
+    left: 2%;
+    width: 60px;
   }
 }
 
@@ -128,6 +173,13 @@ body {
     font-size: 28px;
   }
 }
+@media screen and (max-width: 520px) {
+  .description__title {
+    width: 250px;
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
 .description__content {
   font-size: 16px;
   line-height: 25px;
@@ -141,6 +193,11 @@ body {
   .description__content {
     font-size: 12px;
     width: 500px;
+  }
+}
+@media screen and (max-width: 520px) {
+  .description__content {
+    width: 250px;
   }
 }
 .description__list {
@@ -197,6 +254,11 @@ body {
   font-style: normal;
   width: 400px;
 }
+@media screen and (max-width: 400px) {
+  .standarts__content {
+    width: 300px;
+  }
+}
 .standarts__content-title {
   font-size: 36px;
   line-height: 53px;
@@ -212,6 +274,11 @@ body {
 .standarts__image img {
   width: 500px;
   height: auto;
+}
+@media screen and (max-width: 520px) {
+  .standarts__image img {
+    width: 300px;
+  }
 }
 .standarts__list {
   margin-top: 50px;
@@ -288,6 +355,20 @@ body {
   line-height: 53px;
   color: #FFFFFF;
   width: 540px;
+}
+@media screen and (max-width: 620px) {
+  .works__title {
+    width: 360px;
+    font-size: 24px;
+    line-height: 48px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .works__title {
+    width: 280px;
+    font-size: 20px;
+    line-height: 36px;
+  }
 }
 .works__button {
   position: absolute;
@@ -382,6 +463,11 @@ body {
   margin-top: 50px;
   margin-bottom: 70px;
 }
+@media screen and (max-width: 400px) {
+  .projects__content {
+    width: 350px;
+  }
+}
 .projects__list {
   width: 70%;
   margin-inline: auto;
@@ -413,6 +499,11 @@ body {
 .video {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
+}
+@media screen and (max-width: 420px) {
+  .video {
+    display: none;
+  }
 }
 .video__container {
   height: 700px;
@@ -461,12 +552,22 @@ body {
     left: calc(50% - 240px);
   }
 }
+@media screen and (max-width: 520px) {
+  .video__frame {
+    left: calc(50% - 200px);
+  }
+}
 .video__frame img {
   width: 720px;
 }
 @media screen and (max-width: 720px) {
   .video__frame img {
     width: 480px;
+  }
+}
+@media screen and (max-width: 520px) {
+  .video__frame img {
+    width: 400px;
   }
 }
 .video__frame .frame__button {
@@ -491,6 +592,11 @@ body {
   color: #999999;
   margin-bottom: 20px;
 }
+@media screen and (max-width: 520px) {
+  .video__form-content {
+    font-size: 14px;
+  }
+}
 .video__form-post {
   font-size: 13px;
   line-height: 21px;
@@ -503,6 +609,11 @@ body {
   position: relative;
   width: 489px;
   margin-inline: auto;
+}
+@media screen and (max-width: 520px) {
+  .video__form .container {
+    width: 389px;
+  }
 }
 .video__form .container::after {
   clear: both;
@@ -520,6 +631,11 @@ body {
   position: absolute;
   left: 0;
 }
+@media screen and (max-width: 520px) {
+  .video__form .container .form__input {
+    width: 389px;
+  }
+}
 .video__form .container .form__button {
   width: 190px;
   height: 45px;
@@ -529,6 +645,11 @@ body {
   box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
   border-radius: 0px 30px 30px 0px;
 }
+@media screen and (max-width: 520px) {
+  .video__form .container .form__button {
+    width: 150px;
+  }
+}
 
 footer {
   font-family: "Montserrat", sans-serif;
@@ -536,6 +657,11 @@ footer {
   background-color: #F6F6F8;
   margin-top: 90px;
   padding-top: 40px;
+}
+@media screen and (max-width: 400px) {
+  footer {
+    margin-top: 0;
+  }
 }
 footer .container {
   width: 70%;
