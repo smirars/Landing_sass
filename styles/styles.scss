@@ -41,6 +41,11 @@ body {
         width: 829px;
         margin-inline: auto;
         left: calc(50% - 829px / 2);
+        @media screen and (max-width: 720px) {
+            font-size: 36px;
+            width: 500px;
+            left: calc(50% - 500px / 2);
+        }
     }   
     &__button {
         position: absolute;
@@ -114,7 +119,11 @@ body {
         color: #323232;
         width: 700px;
         margin-top: 80px;
-        margin-inline: auto;                
+        margin-inline: auto;
+        @media screen and (max-width: 720px) {
+            width: 500px;
+            font-size: 28px;
+        }                
     }
     &__content {
         font-size: 16px;
@@ -124,6 +133,10 @@ body {
         width: 700px;
         margin-top: 40px;
         margin-inline: auto;
+        @media screen and (max-width: 720px) {
+            font-size: 12px;
+            width: 500px;
+        }
     }
     &__list {
         display: flex;
@@ -373,6 +386,10 @@ body {
                     height: 255px;
                 }
             }
+            @media screen and (max-width: 720px) {
+                flex-direction: column;
+                align-items: center;
+            }
         }
     }
     &__button {
@@ -425,8 +442,14 @@ body {
         top: 250px;
         left: calc(50% - 720px / 2);
         z-index: 10;
+        @media screen and (max-width: 720px) {
+            left: calc(50% - 480px / 2);
+        }
         & img {
             width: 720px;
+            @media screen and (max-width: 720px) {
+                width: 480px;
+            }
         }
         & .frame__button {
             position: absolute;

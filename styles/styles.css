@@ -37,6 +37,13 @@ body {
   margin-inline: auto;
   left: calc(50% - 414.5px);
 }
+@media screen and (max-width: 720px) {
+  .header__motto {
+    font-size: 36px;
+    width: 500px;
+    left: calc(50% - 250px);
+  }
+}
 .header__button {
   position: absolute;
   top: 450px;
@@ -115,6 +122,12 @@ body {
   margin-top: 80px;
   margin-inline: auto;
 }
+@media screen and (max-width: 720px) {
+  .description__title {
+    width: 500px;
+    font-size: 28px;
+  }
+}
 .description__content {
   font-size: 16px;
   line-height: 25px;
@@ -123,6 +136,12 @@ body {
   width: 700px;
   margin-top: 40px;
   margin-inline: auto;
+}
+@media screen and (max-width: 720px) {
+  .description__content {
+    font-size: 12px;
+    width: 500px;
+  }
 }
 .description__list {
   display: flex;
@@ -380,6 +399,12 @@ body {
   width: 255px;
   height: 255px;
 }
+@media screen and (max-width: 720px) {
+  .projects__list .list {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .projects__button {
   margin-inline: auto;
   margin-top: 50px;
@@ -431,8 +456,18 @@ body {
   left: calc(50% - 360px);
   z-index: 10;
 }
+@media screen and (max-width: 720px) {
+  .video__frame {
+    left: calc(50% - 240px);
+  }
+}
 .video__frame img {
   width: 720px;
+}
+@media screen and (max-width: 720px) {
+  .video__frame img {
+    width: 480px;
+  }
 }
 .video__frame .frame__button {
   position: absolute;
